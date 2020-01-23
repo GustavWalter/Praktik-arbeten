@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rendera kod i färg</title>
+    <link rel="stylesheet" href="./prism.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="txtInput" spellcheck="false" placeholder="Skriv in din kod HÄR" class="inputArea" cols="30" rows="10"></textarea>
+        <input id="btnKor" type="button" value="Färga">
+        <select id="dropDown">
+            <option value="HTML">HTML</option>
+            <option value="Java">Java</option>
+            <option value="C#">C#</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">Script</option>
+        </select>
+        <br>
+        <div class="output"></div>
+    </div>
+    <script src="./renderaKod.js"></script>
+</body>
+</html>
